@@ -27,6 +27,11 @@ class DetailsScreen extends StatelessWidget {
               height: 300.0,
               child: CircleImage(image: article.urlToImage),
             ),
+            Center(
+              child: Text(
+                article.dateTime,
+              ),
+            ),
             SizedBox(
               height: 5.0,
             ),
